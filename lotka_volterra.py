@@ -47,8 +47,8 @@ true_value_lapin, true_value_renard = get_true_value()
 mse_lapin = objectif(true_value_lapin, pred_lapin[:len(true_value_lapin)])
 mse_renard = objectif(true_value_lapin, pred_lapin[:len(true_value_renard)])
 
-print(f"MSE lapin : {mse_lapin}")
-print(f"MSE renard : {mse_renard}")
+print(f"Erreur quadratique moyenne (MSE) lapin : {mse_lapin}")
+print(f"Erreur quadratique moyenne (MSE) renard : {mse_renard}")
 
 # plt.figure(figsize=(15, 6))
 # plt.plot(time, lapin, "b-", label='Lapins')
